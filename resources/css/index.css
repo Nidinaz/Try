@@ -21,7 +21,8 @@ div {
 
 /* to change the orders of the items, you can use the flex-direction: row-revers and  column-revers */
 
-/*  */
+/*  .first { align-self:flex-end,center etc.} */
+
 .flex-container {
   background-color: lightblue;
   height: 150px;
@@ -42,11 +43,11 @@ div {
 }
 
 .first {
-  order:1;
+  order: 2;
 }
 
 .second {
-  order: 2;
+  order: 1;
 }
 
 .third {
@@ -60,3 +61,10 @@ div {
 .fifths {
   order: 5;
 }
+
+/* the ultimate flexbox cheat sheet */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Mixins
+https://caniuse.com/
+https://flexboxzombies.com/p/flexbox-zombies
+http://flexboxfroggy.com/#nl
+https://www.sketchingwithcss.com/samplechapter/cheatsheet.html  */
