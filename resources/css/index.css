@@ -2,6 +2,10 @@
   font-family: Helvetica;
 }
 
+div {
+  border: 1px solid black;
+}
+
 .flex-container {
   background-color: lightblue;
   height: 150px;
