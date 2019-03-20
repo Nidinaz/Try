@@ -18,6 +18,10 @@ div {
 */
 
 /* rows and colums are alignt within the flexboxcontaner, not the items itself, use align-itmes  */
+
+/* to change the orders of the items, you can use the flex-direction: row-revers and  column-revers */
+
+/*  */
 .flex-container {
   background-color: lightblue;
   height: 150px;
@@ -34,4 +38,25 @@ div {
   background-color: orange;
   height: 50px;
   width: 50px;
+  flex-grow: 2 1 100px; /* flex-grow, flex-shrink, flex-basis */
+}
+
+.first {
+  order:1;
+}
+
+.second {
+  order: 2;
+}
+
+.third {
+  order: 3;
+}
+
+.fourth {
+  order: 4;
+}
+
+.fifths {
+  order: 5;
 }
