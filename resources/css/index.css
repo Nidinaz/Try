@@ -6,10 +6,14 @@ div {
   border: 1px solid black;
 }
 
+/* with flexbox you can move into 2 dimensions up-down(crossaxis) ; left-right(mainaxis) */
+
 .flex-container {
   background-color: lightblue;
   height: 150px;
-  width: 500px
+  width: 500px;
+  display: flex; /* all items (immidiate children of perent) will be in one row on the left*/
+  flex-direction: column;
 }
 
 .box {
