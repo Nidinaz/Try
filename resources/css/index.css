@@ -8,12 +8,26 @@ div {
 
 /* with flexbox you can move into 2 dimensions up-down(crossaxis) ; left-right(mainaxis) */
 
+/* row + justify content = horizontal
+   column + align-itmens = horizontal
+
+   row + align-items = vertical
+   column + justify-content = vertical
+   min. 18:00
+   min. 24:00
+*/
+
+/* rows and colums are alignt within the flexboxcontaner, not the items itself, use align-itmes  */
 .flex-container {
   background-color: lightblue;
   height: 150px;
   width: 500px;
   display: flex; /* all items (immidiate children of perent) will be in one row on the left*/
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around ; /*flex-start; flex-end; space-between; center*/
+  align-items: center; /* center moves items down; flex-start items up; flex-end items bottom of container; baseline align items of conent; strecht depends on hight -change min-hight */
+  flex-wrap: wrap; /*wrap- if there is not enough room for all items a new line starts; nowrap is default stage  */
+  align-content: center /* flex-start, flex-end, space-around (creates space top and bottem), space-between the rows,  */
 }
 
 .box {
